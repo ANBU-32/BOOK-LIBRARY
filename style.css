@@ -1,0 +1,46 @@
+.stats {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.controls input,
+.controls select {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.status-badge {
+  padding: 3px 8px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.status-read {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.status-unread {
+  background: #fee2e2;
+  color: #7f1d1d;
+}
+
+.book-card {
+  transition: transform 0.2s ease;
+}
+
+.book-card:hover {
+  transform: scale(1.03);
+}
